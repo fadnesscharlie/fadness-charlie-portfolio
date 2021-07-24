@@ -81,13 +81,11 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
+                        A Software Developers Path{" "}
                         <span>completed with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        From the world around us to what we have in our hands on a daily basis has been fasinating and being able to be a part of this transition into a more tech world and being able to see it flow to all parts of the world. From one small line to code to hundred of pages, seeing the transition from something small being build to a massive application that can solve many issues and problems for every day users is something I am excited for. Being able to keep learning and use those skills to furter my education and pass those down to others and even the next generation will continue the flow of tech and keep revolutionizing the world as see it being us things we only could image before.
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -148,28 +146,32 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Source of Peace
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Source of Peace welcomes you to place where you can move away from your busy life, give yourself a few minutes to yourself be able to bring calmness to you. With an implemented timer to focus on your breathing, and some readings. We hope this hope this brings peace and calmness to you. 
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              JavaScript
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              CSS
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              OOP
+                            </Badge>
+                            <Badge color="primary" pill className="mr-1">
+                              JSON
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="https://source-of-peace.github.io/source_of_peace/"
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
@@ -184,22 +186,20 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 Project Name
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Furture Projects Place Holder
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              React
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              JavaScript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              BootStrap
                             </Badge>
                           </div>
                           <Button
@@ -220,22 +220,20 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                          401 Project Name
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Furture Projects Place Holder
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              React
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              JavaScript
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              BootStrap
                             </Badge>
                           </div>
                           <Button
@@ -269,11 +267,9 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>What to bring to the world</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Place holder for what I have to offer
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -288,7 +284,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Carefully crafted components
+                              What do I want to help with/solve
                             </h6>
                           </div>
                         </div>
@@ -304,7 +300,8 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">What i have to offered
+                            </h6>
                           </div>
                         </div>
                       </li>
@@ -320,7 +317,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                              What things I will focus on and where to go
                             </h6>
                           </div>
                         </div>
@@ -359,12 +356,10 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        Peace of Mind
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                        Welcoming, inviting, and overall, bring kindness. 
                       </p>
                     </blockquote>
                   </Card>
@@ -374,28 +369,22 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Source Of Peace</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      Take a momment for yourself and bring balance back to your body and mind
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      A place to practice deep breathing, getting a lung full of the air around us, have a momment to reflect on what we have and what we sometimes don't see.
                     </p>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      Reflect on passages and write down your thoughts. Letting your emotions guide your words, being able to loosen your mind and soul and let the weight off your shoulders and on to paper.
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
-                      A beautiful UI Kit for impactful websites
+                      A link to this Application to furter your inner peace
                     </a>
                   </div>
                 </Col>
@@ -422,11 +411,9 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Possible where I want to be?</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        Goals in mind?
                       </p>
                     </div>
                   </div>
@@ -443,9 +430,7 @@ class Landing extends React.Component {
                             Awesome Support
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            What can i do. Possible links to readings or other things that promote myself
                           </p>
                           <a
                             className="text-success"
@@ -468,12 +453,10 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            Something else here
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                            Place holder
                           </p>
                           <a
                             className="text-warning"
