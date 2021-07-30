@@ -38,8 +38,9 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+import reactWhite from "assets/img/brand/Placeholder-splat-image.jpg";
 import argonReact from "assets/img/brand/argon-react.png";
+
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -185,8 +186,8 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      <DropdownItem to="/login-page" tag={Link}>
-                        Login
+                      <DropdownItem to="/portfolio" tag={Link}>
+                        Portfolio
                       </DropdownItem>
                       {/* <DropdownItem to="/register-page" tag={Link}>
                         Register
@@ -202,9 +203,8 @@ class DemoNavbar extends React.Component {
                       id="tooltip333589074"
                       target="_blank"
                     >
-                      {/* Still need to import LinkedIn Icon */}
-                      {/* <i className="fa fa-linkedin-in" /> */}
-                      <i className="fa fa-facebook-square" />
+                      <i className="fa fa-linkedin" />
+                      {/* <i className="fa fa-facebook-square" /> */}
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         LinkedIn
                       </span>
