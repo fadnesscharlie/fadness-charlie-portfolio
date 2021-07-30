@@ -49,6 +49,7 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
 import Download from "../IndexSections/Download.js";
+import SOP from "../../assets/img/theme/Source of Peace ScreenShot.png";
 
 class Landing extends React.Component {
   state = {};
@@ -58,6 +59,9 @@ class Landing extends React.Component {
     this.refs.main.scrollTop = 0;
   }
   render() {
+    const inLineCSS = {
+      width: "270px",
+    }
     return (
       <>
         <DemoNavbar />
@@ -142,8 +146,10 @@ class Landing extends React.Component {
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
-                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
-                            <i className="ni ni-check-bold" />
+                          {/* <div className="icon icon-shape icon-shape-primary rounded-circle mb-4"> */}
+                          <div>
+                            <img style={inLineCSS}src={SOP} />
+                            {/* <i className="ni ni-check-bold" /> */}
                           </div>
                           <h6 className="text-primary text-uppercase">
                             Source of Peace
@@ -184,6 +190,7 @@ class Landing extends React.Component {
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
+                            {/* <img src={SOP} /> */}
                           </div>
                           <h6 className="text-success text-uppercase">
                             301 Project Name
@@ -267,9 +274,9 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>What to bring to the world</h3>
+                    <h3>My Background</h3>
                     <p>
-                      Place holder for what I have to offer
+                    Who I am. I have been a massage therapist for over 9 years now. Through my logical thinking, I have always been passionate about understanding how things work and how things are made. Using my initiative, problem solving skills, willingness to compromise, teach, and learn. I want to use those skills to elevate myself to new heights and see what opportunities await me in software development. When I understand how things work, I can better use that knowledge to understand how fast I can accomplish something and be able to set times and goals to accomplish each task.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -284,7 +291,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              What do I want to help with/solve
+                              Undertanding how code works and how it reacts with all the elements its given
                             </h6>
                           </div>
                         </div>
@@ -300,7 +307,8 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">What i have to offered
+                            <h6 className="mb-0">
+                              Teaching and helping others is a passion of mine
                             </h6>
                           </div>
                         </div>
@@ -317,7 +325,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              What things I will focus on and where to go
+                              Supporting the next great App to be a part of the project and see the world around us change with it
                             </h6>
                           </div>
                         </div>
